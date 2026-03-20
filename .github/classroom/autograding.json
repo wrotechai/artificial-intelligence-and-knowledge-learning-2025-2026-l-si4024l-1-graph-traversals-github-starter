@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "T1_BASIC — Direct connection (Dijkstra/A*, time)",
+      "setup": "chmod +x run_task1.sh run_task2.sh",
+      "run": "python3 tests/autograder.py T1_BASIC",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 5
+    },
+    {
+      "name": "T1_PARENT_STATION — Multi-platform station",
+      "setup": "",
+      "run": "python3 tests/autograder.py T1_PARENT_STATION",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 3
+    },
+    {
+      "name": "T1_DWELL — Dwell time handling",
+      "setup": "",
+      "run": "python3 tests/autograder.py T1_DWELL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 3
+    },
+    {
+      "name": "T1_CALENDAR — Service filtering by date",
+      "setup": "",
+      "run": "python3 tests/autograder.py T1_CALENDAR",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 4
+    },
+    {
+      "name": "T1_TRANSFERS_ZERO — Transfer criterion (direct route)",
+      "setup": "",
+      "run": "python3 tests/autograder.py T1_TRANSFERS_ZERO",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 5
+    },
+    {
+      "name": "T1_TRANSFERS_MULTI — Transfer criterion (multi-transfer)",
+      "setup": "",
+      "run": "python3 tests/autograder.py T1_TRANSFERS_MULTI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 5
+    },
+    {
+      "name": "T2_BASIC — TSP with 2 stops",
+      "setup": "",
+      "run": "python3 tests/autograder.py T2_BASIC",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 5
+    },
+    {
+      "name": "T2_3STOPS — TSP with 3 stops",
+      "setup": "",
+      "run": "python3 tests/autograder.py T2_3STOPS",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 600,
+      "points": 5
+    },
+    {
+      "name": "T2_TRANSFERS — TSP with transfer criterion",
+      "setup": "",
+      "run": "python3 tests/autograder.py T2_TRANSFERS",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 600,
+      "points": 5
+    }
+  ]
+}
